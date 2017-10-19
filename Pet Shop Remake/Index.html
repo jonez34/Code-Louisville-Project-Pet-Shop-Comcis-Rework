@@ -1,55 +1,61 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            PSC Shop and Games
-        </title>
+        <title>PSC Shop and Games</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
-    <body>
-        <div class="container">
-            <header class="header">
-                    <h1>Pet Shop Comics and Games</h1>
-                    <div class="main-nav">
-                        <a href="Index.html">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Comics</a>
-                        <a href="Events.html">Events</a>
-                    </div>
-            </header>
-            <div class="intro">
-                <img src="img\BatmanLilFriends.jpg" />
-                <h2>Happy Comic Book Day!</h1>                   
-                <h3>Playing Outside the box!</h3>                   
-            </div>
-        
-            <div class="primary">
+    <body>        
+        <header class="main-header">
+                <!--<h1 class="name">Pet Shop Comics and Games</h1>-->
+                <img src="img/pscjumpinglogo.gif" alt="Pet Shop juming frog Logo Image">
+                <ul class="main-nav">
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Comics</a></li>
+                    <li><a href="Events.html">Events</a></li>
+                </ul>
+        </header>
+
+        <div class="banner">
+            <img src="img\BlackandWhiteBoltAction.jpg" id="headerphoto"/>
+            <h2 class="headline">Happy Comic Book Day!</h1>                   
+            <h3 class="tagline">Playing Outside the box!</h3>                   
+        </div>
+
+        <div class="row">
+            <div class="primary col">
                     <h3>Contact Information</h3>
                     <h4>Telephone</h4>
                     <p>502-957-3188</p>
                     <h4>Address</h4>
-                    <p>6234 North Preston Hwy. Suite F
-                    Louisville, KY 40229</p>
+                    <p>6234 North Preston Hwy. Suite F</p>
+                    <p>Louisville, KY 40229</p>
                     <h4>Email</h4>
                     <p>General Information: petshopcomics@windstream.net</p>
                     <h4>Facebook</h4>
                     <p>petshopcomics</p>
             </div> 
-            <div class="secondary">
+            <div class="secondary col">
                 <h3>Hours of Operation</h3>
                 <p>Sunday: Closed</p>
                 <p>Monday: Closed</p>
-                <p>Tuesday: Deliveries Only before 4:00 p.m.
-                                Open 4:00 p.m. - 9:00 p.m.</p>
+                <p>Tuesday: 
+                    <ul>
+                        <li>Deliveries Only before 4:00 p.m.</li>
+                        <li>Open 4:00 p.m. - 9:00 p.m.</li>
+                    </ul></p>                
                 <p>Wednesday: 11:00 a.m. - 9:00 p.m.</p> 
                 <p>Thursday: 11:00 a.m. - 9:00 p.m.</p>
                 <p>Friday: 11:00 a.m. - 9:00 p.m.</p>
                 <p>Saturday: 11:00 a.m. - 9:00 p.m.</p>
             </div>
-            <div class="footer">
-                    <img src="img/pscjumpinglogo.gif" alt="Pet Shop juming frog Logo Image">
-            </div>
         </div>
-
+        <footer class="main-footer">
+            <div class="footer-inner">
+                <img src="img/pscjumpinglogo.gif" alt="Pet Shop juming frog Logo Image">
+            </div>
+        </footer>        
     </body>
 </html>
