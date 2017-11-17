@@ -1,5 +1,7 @@
 This Project is for Code Louisville Front-End Developer Track. I updated a local business website, www.petshopcomics.com.
 
+I have Hosted for easier showing. http://www.henrycjones.com/CodeLouisville/Index.html 
+
 I used photos from the clients facebook page, along with setup a slimulation of a comic book ordering by importing information from Marvel via an API calls to bring in data from their database. Also setup an events calander for people to follow and join. 
 
 for the events page it uses jquery and you may have to start a server on your machine in order to render the Marvel API. I used Mamp to be able to render the code for the api from my local host. https://www.mamp.info/en/. Once installed, you will have to update the preferences and go to the tab "web server", and point the file to where you have download the comics.html page. Once you have mapped the location, go back to main page of Mamp, and start the sever. once started open broswer and in the address put in "localhost" and it should allow you to access the content with out error.
