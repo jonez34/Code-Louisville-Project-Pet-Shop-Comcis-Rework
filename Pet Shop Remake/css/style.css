@@ -45,7 +45,7 @@ img {
 /* ---- Navigation ---- */
 
 .name {
-	font-size: 1.35em;
+	font-size: 2em;
 	margin: 0;
 }
 .main-nav {
@@ -71,6 +71,7 @@ img {
 .main-header {
 	padding-top: .5em;
 	padding-bottom: .5em;
+	text-align: center;
 }
 .banner,
 .main-footer {
