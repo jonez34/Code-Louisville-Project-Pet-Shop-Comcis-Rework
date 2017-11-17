@@ -9,7 +9,7 @@
 
     <body>
         <header class="main-header">
-            <!-- Main Display -->
+           
             <h1 class="name">Pet Shop Comics and Games</h1>
             <!-- Navigation -->
             <ul class="main-nav">
@@ -19,23 +19,25 @@
 				<li><a href="Events.html">Events</a></li>
             </ul>
         </header>
-        <!-- Rotating Photos -->
+        <!-- Main Display Photo-->
         <div class="banner">
-                <img src="img/BlackandWhiteBoltAction.jpg" alt="Black and White Bolt Action"/>
+                <img src="img/ComicBookPhoto.png" alt="Comic Book Photo"/>
                 <h2>Happy Comic Book Day!</h1>                   
                 <h3>Playing Outside the box!</h3>                   
         </div>
         <<!-- Content -->
         <div class="row">
-            <div class="secondary col">
-                <h2>Current Events</h2>
-
-                <p>All Events can be found on facebook at the Headquarters Group Page. (note: access required, just join to see the events.</p>
-                <a href="https://www.facebook.com/groups/1374968849445918/">PSC Campaign/Event Headquarters</a>     
+            <div class="secondary col" >
+                    <h2>Order Directly from Us</h2>                
+                    <p>We have a subription plan for all comics you could want.</p>
+                    <br />
+                    <h2>Email Us</h2>
+                    <p>Please send us your comic request by Email before Tuesdays.</p>
+                     
             </div> 
-            <!-- Events Calander -->
-            <div class="primary col">
-                <iframe src="https://calendar.google.com/calendar/embed?showNav=0&amp;showTabs=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=8vgoebkcvkmbvt3820mt5aq80s%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FNew_York" style="border-width:0" width="800px" height="100%" frameborder="0" scrolling="no"></iframe>
+            <!-- Comics Display -->
+            <div class="primary col " id="comicsDisplay">
+                
             </div>
             
         </div>
@@ -45,6 +47,8 @@
                 <img src="img/pscjumpinglogo.gif" alt="Pet Shop juming frog Logo Image">
             </div>
         </footer>
-        
+        <!-- Script -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/MarvelApi.js"></script>
     </body>
 </html>

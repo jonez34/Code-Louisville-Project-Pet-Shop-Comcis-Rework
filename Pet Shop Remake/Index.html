@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Link to external pages-->
         <title>PSC Shop and Games</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
@@ -8,22 +9,24 @@
 
     <body>        
         <header class="main-header">
-                <!--<h1 class="name">Pet Shop Comics and Games</h1>-->
-                <img src="img/pscjumpinglogo.gif" alt="Pet Shop juming frog Logo Image">
+            <!-- Main Display -->
+                <h1 class="name">Pet Shop Comics and Games</h1>              
+                <!-- Navigation -->
                 <ul class="main-nav">
                     <li><a href="Index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Comics</a></li>
-                    <li><a href="Events.html">Events</a></li>
+					<li><a href="About.html">About</a></li>
+					<li><a href="Comics.html">Comics</a></li>
+					<li><a href="Events.html">Events</a></li>
                 </ul>
         </header>
-
+        <!-- Main Display Rotating Photos-->
         <div class="banner">
-            <img src="img\BatmanLilFriends.jpg" id="headerphoto"/>
+            <layer id="placeholderlayer"></layer><div id="placeholderdiv"></div>
+           <!-- <img src="img/BatmanLilFriends.jpg" id="headerphoto"/>-->
             <h2 class="headline">Happy Comic Book Day!</h1>                   
             <h3 class="tagline">Playing Outside the box!</h3>                   
         </div>
-
+        <<!-- Content -->
         <div class="row">
             <div class="primary col">
                     <h3>Contact Information</h3>
@@ -52,10 +55,13 @@
                 <p>Saturday: 11:00 a.m. - 9:00 p.m.</p>
             </div>
         </div>
+        <!-- Footer -->
         <footer class="main-footer">
             <div class="footer-inner">
                 <img src="img/pscjumpinglogo.gif" alt="Pet Shop juming frog Logo Image">
             </div>
-        </footer>        
+        </footer>
+        <!-- Scripts-->
+        <script src="js/Petshop.js"></script>
     </body>
 </html>
